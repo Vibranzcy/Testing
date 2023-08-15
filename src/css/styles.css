@@ -1,0 +1,92 @@
+/* src/css/styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation Styles */
+.nav-menu {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-menu a:hover {
+    color: #7b9e89;
+}
+
+/* Call to Action Button Styles */
+.cta-button {
+    display: inline-block;
+    background: #7b9e89;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #689d7a;
+}
+
+/* Form Styles */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #7b9e89;
+}
+
+.form-submit:hover {
+    background: #689d7a;
+}
+
+/* Blog Post Styles */
+.blog-post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+/* FAQ Item Styles */
+.faq-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.faq-item:hover {
+    border-color: #7b9e89;
+}
